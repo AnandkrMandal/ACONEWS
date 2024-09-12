@@ -174,7 +174,8 @@ export default function NewsContent() {
   const categories = ["general", "business", "technology", "entertainment", "sports", "science", "health"];
   const pageSize = 10; 
 
-  const apiKey = import.meta.env.VITE_API_KEY;
+  // const apiKey = import.meta.env.VITE_API_KEY;
+  const apiKey = '77626dc7de95d10096ac7e0f1923c83b';
 
   const fetchNewsData = async (query = "", page = 1) => {
     setLoading(true);
